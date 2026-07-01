@@ -4,14 +4,6 @@ UFC fight predictor: 47 stats, math engine, Polymarket lines, honest grading led
 
 ---
 
-## How to load MAIN
-
-Run these from the project folder:
-
-```bash
-cd "C:\Users\Nick\Desktop\UFC AI MAIN"
-```
-
 ### One-time setup (per machine)
 
 ```bash
