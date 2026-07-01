@@ -1,0 +1,12 @@
+# Betting layer (Step 4)
+
+min_edge: 0.03          # 3% edge required to recommend a bet
+half_kelly: true
+max_kelly_fraction: 0.25  # cap at 25% of bankroll
+default_bankroll: 1000
+
+# Tiers eligible for a bet recommendation (COIN_FLIP and NO_PICK -> PASS unless huge edge)
+bettable_tiers:
+  - LOCK
+  - STRONG
+  - LEAN
